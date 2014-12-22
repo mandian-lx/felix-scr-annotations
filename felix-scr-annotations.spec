@@ -4,12 +4,13 @@ Name:          felix-scr-annotations
 Version:       1.9.6
 Release:       3%{?dist}
 Summary:       Annotations for SCR
+Group:         Development/Java
 License:       ASL 2.0
 URL:           http://felix.apache.org/
 Source0:       http://www.apache.org/dist/felix/%{bundle}-%{version}-source-release.tar.gz
 
 BuildRequires: java-devel
-BuildRequires: mvn(org.apache.felix:felix-parent)
+BuildRequires: mvn(org.apache.felix:felix-parent:pom:)
 BuildRequires: mvn(org.apache.felix:org.apache.felix.scr.generator)
 
 BuildRequires: maven-local
