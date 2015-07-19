@@ -3,7 +3,7 @@
 %global bundle    org.apache.felix.scr.annotations
 Name:          felix-scr-annotations
 Version:       1.9.6
-Release:       3.2
+Release:       3.3
 Summary:       Annotations for SCR
 Group:         Development/Java
 License:       ASL 2.0
